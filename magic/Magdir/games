@@ -159,8 +159,10 @@
 # doom - submitted by Jon Dowland
 
 0	string	=IWAD		doom main IWAD data
+!:mime	application/x-doom-wad
 >4	lelong	x		containing %d lumps
 0	string	=PWAD		doom patch PWAD data
+!:mime	application/x-doom-wad
 >4	lelong	x		containing %d lumps
 
 # Build engine group files (Duke Nukem, Shadow Warrior, ...)
